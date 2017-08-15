@@ -1,0 +1,20 @@
+{
+  "name": "normandy-telemetry",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Hanno Schlichting <hschlichting@mozilla.org>",
+  "description":  "Export telemetry data as JSON",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hannosch/normandy-telemetry.git"
+  },
+  "license": "MPL-2.0",
+  "dependencies": {
+    "promise": "4.0.0",
+    "lodash": "2.4.1",
+    "debug": "0.7.4",
+    "mkdirp": "0.5.0",
+    "telemetry-next-node": ">=1.1.0",
+    "semver": "5.4.1"
+  }
+}
