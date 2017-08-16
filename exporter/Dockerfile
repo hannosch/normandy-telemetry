@@ -22,5 +22,4 @@ RUN npm dedupe
 COPY . /app
 
 CMD ["/app/run.sh"]
-# CMD ["bash"]
 VOLUME /app/data
